@@ -1,0 +1,84 @@
+/*jeader section styles*/
+header{
+    background-image:url(../style/banner/banner1.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    width: 100%
+}
+
+.banner-heading{
+max-width: 500px;
+padding-top: 230px;
+padding-left: 800px;
+}
+.btn-primary {
+    color: aliceblue;
+    Height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(233, 153, 88);
+    border: 0;
+    padding: 19px 35px ;
+    
+}
+h1{
+    font-weight: 700;
+font-size: 65px;
+font-family: 'Work Sans';
+}
+.banner-description{
+    font-weight: 400;
+font-size: 16px;
+font-family: 'Work Sans';
+}
+/*failure section styles*/
+.image-section {
+    display: flex;
+}
+.banner-heading{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+.failure-description {
+    margin-right: 180px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+.failure{
+    padding-left: 70px;
+    padding-top: 100px;
+}
+.failure ul li{
+    list-style: none;
+    
+    
+}
+.failure ul li i{
+    color: darkgreen;
+}
+/*plan section styles*/
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+#random-1{
+    text-align: center;
+}
+.plan-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+font-size: 30px;
+}
+.plan-description{
+    font-family: 'Work Sans';
+    font-size: 25px;
+line-height: 29px;
+
+}
+
