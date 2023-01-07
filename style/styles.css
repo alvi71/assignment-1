@@ -1,16 +1,22 @@
 /*jeader section styles*/
-header{
-    background-image:url(../style/banner/banner1.png);
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(../style/banner/banner1.png);
     height: 800px;
     background-repeat: no-repeat;
     width: 100%
 }
 
-.banner-heading{
-max-width: 500px;
-padding-top: 230px;
-padding-left: 800px;
+.banner-heading {
+    max-width: 500px;
+    padding-top: 230px;
+    padding-left: 800px;
+
 }
+
 .btn-primary {
     color: aliceblue;
     Height: 64px;
@@ -19,152 +25,180 @@ padding-left: 800px;
     font-size: 20px;
     background-color: rgb(233, 153, 88);
     border: 0;
-    padding: 19px 35px ;
-    
-}
-.btn-secondary{
-    
-        color: rgb(233, 153, 88);
-        Height: 44px;
-        border-radius: 5px;
-        font-weight: 600;
-        font-size: 20px;
-        background-color: aliceblue;
-        border: 0;
-        padding-top: 10px;
-        padding-left: 10px;
-        
+    padding: 19px 35px;
+
 }
 
-.banner-description{
-    font-weight: 400;
-font-size: 16px;
-font-family: 'Work Sans';
+.btn-secondary {
+
+    color: rgb(233, 153, 88);
+    Height: 44px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+
 }
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
 /*failure section styles*/
 .failure-section {
     display: flex;
     padding-top: 138px;
 }
-.banner-heading{
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
+
+.banner-heading {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
+
 .failure-description {
     margin-right: 180px;
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
-.failure{
+
+.failure {
     padding-left: 70px;
     padding-top: 100px;
 }
-.failure ul li{
+
+.failure ul li {
     list-style: none;
-    
-    
+
+
 }
-.failure ul li i{
+
+.failure ul li i {
     color: darkgreen;
 }
+
 /*plan section styles*/
-.plan-section{
+.plan-section {
     padding-top: 138px;
 }
-.four-plan{
+
+.four-plan {
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
-#random-1{
+
+#random-1 {
     text-align: center;
 }
-.plan-title{
-    font-family: 'Work Sans';
+
+.plan-title {
+
     font-weight: 700;
-font-size: 30px;
+    font-size: 30px;
 }
-.plan-description{
-    font-family: 'Work Sans';
+
+.plan-description {
+
     font-size: 25px;
-line-height: 29px;
+    line-height: 29px;
 
 }
+
 /*lower-banner style*/
-.lower-banner{
-   background-image: url("watch.png"),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-   background-repeat: no-repeat;
-   background-blend-mode: soft-light;
-width: 100%;
-height: 270px;
-margin-top: 138px;
-color: aliceblue;
+.lower-banner {
+    background-image: url("watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    width: 80%;
+    height: 270px;
+    margin: 138px auto;
+    color: aliceblue;
+    border-radius: 8px;
 }
-#input-email{
+
+#input-email {
     border-radius: 8px;
     font-size: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-h1{
-    font-family: 'Work Sans';
+
+h1 {
+
     font-weight: 700;
-font-size: 30px;
+    font-size: 30px;
 }
-.lower-banner-description{
+
+.lower-banner-description {
     padding-left: 20px;
     padding-top: 20px;
 }
-.future{
+
+.future {
     max-width: 256px;
 }
-.three-icon{
+
+.three-icon {
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    
+
 }
+
+/*love section styles*/
+.love-section {
+    color: rgb(247, 163, 39);
+}
+
+.three-love {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+#random-2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.food-title {
+
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.love {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+/*footer section style*/
 footer {
     display: flex;
     justify-content: space-around;
     gap: 150px;
     background-color: rgb(1, 15, 15);
-  margin-top: 145px;
-  color: aliceblue;
+    margin-top: 145px;
+    color: aliceblue;
 }
-.footer-description{
+
+.footer-description {
     font-size: 44px;
 }
-.subscribe{
+
+.subscribe {
     padding-top: 20px;
 }
-#input{
+
+#input {
     font-size: 20px;
-}
-/*love section styles*/
-.love-section{
-    padding-top: 138px;
-    color: rgb(247, 163, 39);
-}
-.three-love{
-    display: flex;
-    justify-content: space-around;
-    gap: 5px;
-}
-#random-2{
-    text-align: center;
-    padding-bottom: 20px ;
-}
-.food-title{
-    font-family: 'Work Sans';
-    font-weight: 700;
-font-size: 30px;
-}
-.love{
-    font-size: 20px;
-    padding-bottom:5px ;
 }
