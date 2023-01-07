@@ -42,8 +42,9 @@ font-size: 16px;
 font-family: 'Work Sans';
 }
 /*failure section styles*/
-.image-section {
+.failure-section {
     display: flex;
+    padding-top: 138px;
 }
 .banner-heading{
     font-family: 'Work Sans';
@@ -103,6 +104,12 @@ height: 270px;
 margin-top: 138px;
 color: aliceblue;
 }
+#input-email{
+    border-radius: 8px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 h1{
     font-family: 'Work Sans';
     font-weight: 700;
@@ -137,4 +144,27 @@ footer {
 }
 #input{
     font-size: 20px;
+}
+/*love section styles*/
+.love-section{
+    padding-top: 138px;
+    color: rgb(247, 163, 39);
+}
+.three-love{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+#random-2{
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.food-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+font-size: 30px;
+}
+.love{
+    font-size: 20px;
+    padding-bottom:5px ;
 }
